@@ -1,0 +1,28 @@
+{
+  "name": "grupomonetizze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniramirez2/grupoMonetizze.git"
+  },
+  "author": "Ana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniramirez2/grupoMonetizze/issues"
+  },
+  "homepage": "https://github.com/aniramirez2/grupoMonetizze#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest"
+  }
+}

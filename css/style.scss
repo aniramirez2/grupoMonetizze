@@ -1,0 +1,17 @@
+$main-font:    Helvetica, sans-serif;
+$primary-color: ff0000;
+
+@mixin global-margin($m) {
+  margin: $m,$m,$m,$m;
+}
+
+container[role="main"]{
+  @include global-margin(50px);
+  width: 100%;
+}
+.m-col{
+  @include global-margin(50px);
+}
+.center-panel{
+  @include global-margin(50px);
+}
